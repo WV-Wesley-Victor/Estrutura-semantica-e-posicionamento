@@ -1,0 +1,87 @@
+Vou explicar cada parte do código CSS:
+
+body: Define estilos para o elemento body, que representa o corpo da página.
+- margin: 0;: Remove a margem padrão do corpo da página.
+- font-family: Arial, Helvetica, sans-serif;: Define a fonte padrão para o texto do corpo da página como Arial, Helvetica ou outras fontes sans-serif.
+- background-color: #ccc;: Define a cor de fundo para o corpo da página como cinza claro (#ccc).
+
+.hero: Define estilos para o cabeçalho com a classe "hero".
+- background-image: url(../imagens/bg-2.jpg);: Define uma imagem de fundo para o cabeçalho, localizada no diretório "../imagens" com o nome "bg-2.jpg".
+- height: 500px;: Define a altura do cabeçalho como 500 pixels.
+- background-size: cover;: Faz com que a imagem de fundo cubra todo o cabeçalho, mantendo sua proporção.
+- background-position: right center;: Define a posição da imagem de fundo como alinhada à direita e centralizada verticalmente.
+- padding-top: 1px;: Adiciona um pequeno espaçamento na parte superior do cabeçalho (1 pixel de altura).
+
+.hero-content: Define estilos para o conteúdo dentro do cabeçalho.
+- margin: 100px auto 0;: Define margens superior e inferior de 100 pixels e margem lateral automática para centralizar o conteúdo horizontalmente.
+- width: 80%;: Define a largura do conteúdo como 80% do contêiner pai.
+- text-align: center;: Centraliza o texto no conteúdo.
+- color: white;: Define a cor do texto como branco.
+
+.hero-content h1: Define estilos para o cabeçalho de nível 1 (h1) dentro do conteúdo do cabeçalho.
+- font-size: 56px;: Define o tamanho da fonte como 56 pixels.
+- text-shadow: 2px 2px 2px black;: Adiciona uma sombra de texto de 2 pixels com deslocamento de 2 pixels na horizontal e vertical, na cor preta.
+- text-transform: uppercase;: Transforma o texto para letras maiúsculas.
+- margin-bottom: 0;: Remove a margem inferior do cabeçalho h1.
+
+.hero-content p: Define estilos para os parágrafos dentro do conteúdo do cabeçalho.
+- background-color: rgba(0, 0, 0, 0.7);: Define uma cor de fundo com transparência (cor preta com 70% de opacidade) para o parágrafo.
+- font-size: 18px;: Define o tamanho da fonte como 18 pixels.
+- display: inline-block;: Faz com que o parágrafo se comporte como um bloco em linha, permitindo definir largura e altura.
+- padding: 16px;: Adiciona preenchimento interno de 16 pixels no parágrafo.
+- border-bottom: 2px solid;: Adiciona uma borda inferior sólida de 2 pixels no parágrafo.
+
+.hero nav ul: Define estilos para a lista não ordenada dentro da navegação do cabeçalho.
+- margin: 20px 80px 0 0;: Define margens superiores, direita e inferior de 20 pixels e margem esquerda de 80 pixels.
+
+.hero nav li: Define estilos para os itens de lista (links) na navegação do cabeçalho.
+- display: inline-block;: Faz com que os itens de lista se comportem como blocos em linha.
+- list-style-type: none;: Remove os marcadores de lista padrão (pontos ou números).
+- border: 1px solid white;: Adiciona uma borda sólida de 1 pixel nos itens de lista.
+- margin-left: 16px;: Adiciona uma margem à esquerda de 16 pixels nos itens de lista.
+
+.hero nav a: Define estilos para os links na navegação do cabeçalho.
+- background-color: rgba(0, 0, 0, 0.3);: Define uma cor de fundo com transparência (cor preta com 30% de opacidade) para os links.
+- padding: 16px;: Adiciona preenchimento interno de 16 pixels nos links.
+- display: block;: Faz com que os links se comportem como blocos, ocupando a largura total do contêiner.
+- color: white;: Define a cor do texto como branco.
+- text-decoration: none;: Remove o sublinhado padrão dos links.
+- text-transform: uppercase;: Transforma o texto para letras maiúsculas.
+- font-size: 12px;: Define o tamanho da fonte como 12 pixels.
+- letter-spacing: 2px;: Adiciona espaçamento entre as letras.
+
+.hero nav a:hover: Define estilos para os links da navegação do cabeçalho quando o cursor passa sobre eles (hover).
+- background-color: rgba(0, 0, 0, 0.5);: Define uma cor de fundo com transparência (cor preta com 50% de opacidade) para os links ao passar o cursor sobre eles.
+
+main: Define estilos para a seção principal do conteúdo da página.
+- width: 80%;: Define a largura do conteúdo principal como 80% do contêiner pai.
+- margin: auto;: Centraliza o conteúdo horizontalmente.
+- max-width: 860px;: Define a largura máxima do conteúdo como 860 pixels.
+
+article: Define estilos para cada artigo na seção principal.
+- background-color: white;: Define uma cor de fundo branca para os artigos.
+- padding: 16px;: Adiciona preenchimento interno de 16 pixels nos artigos.
+- margin-bottom: 32px;: Adiciona uma margem inferior de 32 pixels nos artigos.
+- margin-top: 32px;: Adiciona uma margem superior de 32 pixels nos artigos.
+
+article h2: Define estilos para os cabeçalhos de nível 2 (h2) dentro dos artigos.
+- border-bottom: 2px solid #ccc;: Adiciona uma borda inferior sólida de 2 pixels nos cabeçalhos h2 com cor cinza claro (#ccc).
+- background-color: #eee;: Define uma cor de fundo cinza claro (#eee) para os cabeçalhos h2.
+
+.btn: Define estilos para os elementos com a classe "btn", que provavelmente são botões.
+- background-color: #cdc7c3;: Define uma cor de fundo cinza claro (#cdc7c3) para os botões.
+- display: block;: Faz com que os botões se comportem como blocos, ocupando a largura total do contêiner pai.
+- padding: 12px 16px;: Adiciona preenchimento interno de 12 pixels na parte superior e inferior e 16 pixels nas laterais.
+- border-radius: 6px;: Adiciona bordas arredondadas aos botões (6 pixels de raio).
+- margin-left: auto;: Alinha os botões à direita em relação ao contêiner pai.
+- width: fit-content;: Define a largura dos botões com base no tamanho do conteúdo, evitando que ocupem todo o espaço disponível.
+
+.rodape: Define estilos para o rodapé da página.
+- color: white;: Define a cor do texto como branco.
+- background-color: #6b6c68;: Define uma cor de fundo cinza escuro (#6b6c68) para o rodapé.
+- text-align: center;: Centraliza o texto no rodapé.
+- padding: 30px;: Adiciona preenchimento interno de 30 pixels no rodapé.
+- text-shadow: 2px 2px 2px black;: Adiciona uma sombra de texto de 2 pixels com deslocamento de 2 pixels na horizontal e vertical, na cor preta.
+- letter-spacing: 2px;: Adiciona espaçamento entre as letras no texto do rodapé.
+
+Essas são as principais regras de estilo presentes no código CSS. Essas regras definem a aparência da página HTML, incluindo a estilização do cabeçalho com uma imagem de fundo, a navegação, o conteúdo principal e o rodapé. A combinação dessas regras permite criar uma página com uma aparência agradável.

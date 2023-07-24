@@ -1,0 +1,57 @@
+Vou explicar o código HTML linha por linha:
+
+- <!DOCTYPE html>: Essa declaração define o tipo de documento como HTML5. Ela é necessária para informar ao navegador que o documento é escrito em HTML5.
+
+- <html lang="pt-br">: Aqui começa o elemento html, que é a raiz do documento HTML. O atributo lang define o idioma do documento, neste caso, é definido como "pt-br" para português brasileiro.
+
+- <head>: Este é o elemento head, que contém metadados e outras informações sobre o documento.
+
+- Meta tags: As linhas com <meta> são usadas para fornecer informações sobre o documento, como o conjunto de caracteres (UTF-8) e a configuração da largura da página para dispositivos.
+
+- <title>Projeto CSS</title>: O elemento title define o título da página, que será exibido na aba do navegador ou na barra de título da janela.
+
+- <link rel="stylesheet" href="styles/estilo.css" />: Este elemento link é usado para vincular uma folha de estilo externa ao documento HTML. O atributo href especifica o caminho para o arquivo "estilo.css" dentro da pasta "styles", que contém as regras de estilo para a página.
+
+- </head>: Fecha a tag <head>.
+
+- <body>: O elemento body contém o conteúdo visível da página, incluindo texto, imagens, links, etc.
+
+- <header class="hero">: Aqui começa o cabeçalho da página, identificado pela classe "hero".
+
+- <nav>: O elemento nav é usado para definir uma seção de navegação. Neste caso, contém uma lista não ordenada (<ul>) com itens de navegação.
+
+- <ul>: O elemento ul representa uma lista não ordenada, que contém os itens de navegação.
+
+- <li><a href="#">Inicio</a></li>: Cada <li> é um item da lista e contém um link (<a>) com texto "Inicio". O atributo href="#" indica que o link não tem um destino específico.
+
+- <div class="hero-content">: Um elemento <div> com a classe "hero-content", que provavelmente contém o conteúdo principal do cabeçalho.
+
+- <h1>Frontend</h1>: Um cabeçalho de nível 1 (h1) com o texto "Frontend".
+
+- <p>Tudo o que precisa saber para iniciar na carreira</p>: Um parágrafo que descreve o conteúdo do cabeçalho.
+
+- </header>: Fecha o cabeçalho da página.
+
+- <main>: O elemento main contém o conteúdo principal da página.
+
+- <section>: O elemento section é usado para agrupar conteúdos relacionados.
+
+- <article>: O elemento article representa um conteúdo independente e pode ser distribuído ou reutilizado de forma independente.
+
+- <header>: O elemento header define o cabeçalho de cada artigo.
+
+- <h2>O HTML</h2>: Um cabeçalho de nível 2 (h2) com o texto "O HTML".
+
+- <p>...: Um parágrafo que descreve o que é o HTML.
+
+- <a href="#" class="btn">Saiba mais</a>: Um link com o texto "Saiba mais" e a classe "btn". Neste caso, novamente com href="#", indicando que o link não tem um destino específico.
+
+- </article>: Fecha o primeiro artigo.
+
+- <footer class="rodape">Copyright © 2023</footer>: O rodapé da página, com o texto de direitos autorais.
+
+- </body>: Fecha o corpo da página.
+
+- </html>: Fecha o documento HTML.
+
+Em resumo, esse código HTML é uma estrutura básica de uma página que contém um cabeçalho com uma seção de navegação, um conteúdo principal dividido em três artigos sobre HTML, CSS e JavaScript, e um rodapé. O conteúdo real de cada seção é um texto descritivo com links "Saiba mais", que não têm um destino específico definido no momento. A aparência da página é provavelmente definida pelo arquivo "estilo.css" vinculado no cabeçalho.
