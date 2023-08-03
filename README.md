@@ -18,6 +18,33 @@ Este repositório contém uma série de recursos que podem ajudá-lo a aprender 
 * Layouts Complexos: Descubra como criar layouts mais complexos combinando as técnicas de estrutura semântica e posicionamento em HTML e CSS.
 * Exemplos Práticos: O repositório inclui diversos exemplos práticos que demonstram a aplicação das técnicas de estrutura semântica e posicionamento em projetos reais.
 
+## Fontes de Pesquisa
+Aprender estrutura semântica e posicionamento em HTML e CSS é fundamental para criar sites bem organizados e visualmente atraentes. Aqui estão algumas fontes de pesquisa para ajudar você a aprender esses conceitos:
+
+### Estrutura Semântica em HTML:
+
+* MDN Web Docs - HTML Semantics: A documentação da MDN oferece uma explicação detalhada sobre a estrutura semântica em HTML, incluindo a importância de elementos semânticos.
+Documentação: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+* W3Schools - HTML Semantic Elements: A W3Schools tem um tutorial sobre os elementos semânticos em HTML, com exemplos práticos.
+Tutorial: https://www.w3schools.com/html/html5_semantic_elements.asp
+* CSS-Tricks - Semantics: O CSS-Tricks também tem um artigo sobre a importância dos elementos semânticos em HTML.
+Artigo: https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/
+
+### Posicionamento em CSS:
+
+* MDN Web Docs - CSS Positioning: A documentação da MDN explica os diferentes valores de posicionamento em CSS, como relative, absolute, fixed, etc.
+Documentação: https://developer.mozilla.org/pt-BR/docs/Web/CSS/position
+* CSS-Tricks - CSS Positioning: O CSS-Tricks oferece um guia detalhado sobre o posicionamento em CSS, com exemplos e dicas.
+Artigo: https://css-tricks.com/almanac/properties/p/position/
+* W3Schools - CSS Positioning: A W3Schools tem um tutorial sobre posicionamento em CSS, abordando vários cenários e técnicas.
+Tutorial: https://www.w3schools.com/css/css_positioning.asp
+* Traversy Media (YouTube): Brad Traversy tem tutoriais em vídeo sobre posicionamento em CSS, incluindo os conceitos básicos e técnicas avançadas.
+Canal: https://www.youtube.com/user/TechGuyWeb
+* Codecademy: A Codecademy oferece cursos interativos sobre posicionamento em CSS, abordando tópicos como float, flexbox e grid.
+Curso: https://www.codecademy.com/learn/learn-css
+
+Lembre-se de praticar com projetos próprios à medida que aprende. Criar layouts semânticos e aplicar diferentes técnicas de posicionamento em exemplos reais ajudará você a solidificar seus conhecimentos e aprimorar suas habilidades em desenvolvimento web.
+
 ## Instruções de Instalação (caso aplicável)
 Este projeto é uma coleção de tutoriais e exemplos disponibilizados online, não requerendo instalação local. Basta acessar o URL fornecido e explorar os recursos disponíveis.
 
